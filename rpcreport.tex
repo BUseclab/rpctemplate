@@ -1,0 +1,36 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{times}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage[singlespacing]{setspace}
+
+\title{RPC Title Here}
+\author{Student Firstname Lastname}
+\date{}
+
+%reduce whitespace around before/after
+\setlength{\droptitle}{-60pt}
+\posttitle{\par\end{center}}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+For more information on how to typeset \LaTeX{} see 
+\href{http://mirrors.ctan.org/info/lshort/english/lshort.pdf}
+{The Not so Short Introduction into \LaTeXe}.
+Beyond that I promise to use a spllchecker and when citing work I will do it this way\cite{cao15:edgeminer}.
+
+\subsection{Formatting guidelines}
+Your RPC report must be typeset as set out in this document (i.e., no tweaking
+with margins, line spread, or any other savetrees tricks). This
+means, 2 pages, letter sized paper, 1in margins (all sides), Times font-family, 11pt
+font-size, single spaced. References, and appendices (including any figures) do
+not count toward the page page-limit.
+
+\bibliographystyle{IEEEtran}
+\bibliography{rpc}
+
+\end{document}
